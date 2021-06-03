@@ -25,15 +25,15 @@ esac
 
 if [[ "${orchestrator}" == 'ecs' ]]; then
     case "${NETWORK}" in
-      100)
+      0)
         zone=a
         color=Crimson
         ;;
-      101)
+      1)
         zone=b
         color=CornflowerBlue
         ;;
-      102)
+      2)
         zone=c
         color=LightGreen
         ;;
